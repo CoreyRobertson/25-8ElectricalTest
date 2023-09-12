@@ -115,13 +115,10 @@ nav p {
   align-items: center;
   z-index: 1000;
   /* Ensure it appears above other elements */
-  transition: transform 0.1s ease-in-out;
 }
 
 .overlay.open {
   right: 0;
-  transition: .15s;
-  /* Slide in from the right when open */
 }
 
 .overlay_top {
@@ -130,7 +127,6 @@ nav p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .overlay_top ul li {
@@ -146,7 +142,6 @@ nav p {
   height: 100%;
   width: 100%;
   background-color: var(--color-yellow);
-
 }
 
 .overlay_bottom ul li {
@@ -168,6 +163,7 @@ nav p {
   font-size: 24px;
   cursor: pointer;
 }
+
 
 /* Header Section */
 
@@ -3246,7 +3242,7 @@ form textarea {
 
   .booking_text-container h3 {
     font-size: 30px;
-    width: auto;
+    width: 300px;
     line-height: 30px;
   }
 

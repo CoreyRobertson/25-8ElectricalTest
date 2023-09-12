@@ -8,7 +8,6 @@ const Overlay = ({ isOpen, onClose }) => {
     };
 
     return (
-
         <motion.div
             className={`overlay ${isOpen ? 'open' : ''}`}
             initial="hidden"
@@ -16,6 +15,10 @@ const Overlay = ({ isOpen, onClose }) => {
             variants={{
                 hidden: { opacity: 0, x: '100%' },
                 visible: { opacity: 1, x: '0%' },
+            }}
+            transition={{
+                duration: 0.3, // Adjust the duration to slow down the animation
+
             }}
         >
             <button className="close-button" onClick={onClose}>
