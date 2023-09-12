@@ -3315,7 +3315,7 @@ form textarea {
   .bio_container {
     flex-direction: column;
     height: auto;
-    padding: 10rem 2rem;
+    padding: 10rem 0rem;
   }
 
   .bio_content-container {
@@ -3338,10 +3338,11 @@ form textarea {
     font-size: 16px;
     text-align: left;
     line-height: 16px;
+    width: 100%;
   }
 
   .bio_image-container {
-    width: 100%;
+    width: 80%;
     /* Adjust this value as needed */
   }
 
@@ -3379,6 +3380,7 @@ form textarea {
     font-size: 16px;
     line-height: 16px;
     margin-top: 1rem;
+    width: 110%;
   }
 
   .profile_image-container {

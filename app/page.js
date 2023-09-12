@@ -24,7 +24,12 @@ export default function Home() {
     },
     "telephone": "0466-382-487",
     "url": "https://www.yourwebsite.com"
-    
+    "sameAs": [
+      "https://www.facebook.com/258electrical",
+      "https://www.instagram.com/258electrical",
+      "https://www.linkedin.com/company/258electrical",
+      "https://www.tiktok.com/@258electrical"
+  ]
   }
 `;
 
