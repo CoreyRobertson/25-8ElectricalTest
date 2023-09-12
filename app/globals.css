@@ -73,6 +73,10 @@ nav p {
   flex: .2;
 }
 
+.nav_brand-container {
+  width: 300px;
+}
+
 
 .nav_links-large {
   display: flex;
@@ -176,7 +180,7 @@ nav p {
   background-image: url('/images/258_header.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 -28rem;
+  background-position: 0 -25rem;
   padding-top: 10rem;
 }
 
@@ -2627,7 +2631,7 @@ form textarea {
 }
 
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 400px) {
 
   .nav_links-large {
     display: none !important;
@@ -2962,6 +2966,7 @@ form textarea {
   .phone {
     font-size: 24px;
     padding-left: 1rem;
+    width: 100%;
   }
 
   /* Testimonials Section */
@@ -3241,7 +3246,7 @@ form textarea {
 
   .booking_text-container h3 {
     font-size: 30px;
-    width: 300px;
+    width: auto;
     line-height: 30px;
   }
 
