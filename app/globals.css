@@ -2627,7 +2627,7 @@ form textarea {
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 440px) {
 
   .nav_links-large {
     display: none !important;
