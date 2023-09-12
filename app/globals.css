@@ -180,7 +180,7 @@ nav p {
   background-image: url('/images/258_header.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 -25rem;
+  background-position: 0 -25git rem;
   padding-top: 10rem;
 }
 
@@ -2631,7 +2631,7 @@ form textarea {
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 440px) {
 
   .nav_links-large {
     display: none !important;
