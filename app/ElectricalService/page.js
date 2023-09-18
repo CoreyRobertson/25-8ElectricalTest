@@ -7,11 +7,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import Head from 'next/head';
 
-export const metadata = {
-    title: "25/8 Electrical",
-    description: "Melbourne's trusted partner in innovative electrical solutions.",
-
-}
 
 const ElectricalService = () => {
 
