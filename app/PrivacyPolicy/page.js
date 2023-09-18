@@ -469,7 +469,7 @@ const index = () => {
                 <br />
                 Phone 0466 382 487
                 <br />
-                Email: 258electrical@gmail.com
+                Email: Info@258electrical.com.au
                 <br />
                 <br />
                 Once the Privacy Officer receives a complaint from you, the Privacy Officer will within

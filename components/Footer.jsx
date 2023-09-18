@@ -24,15 +24,15 @@ const Footer = () => {
                 </div>
                 <div className='footer_right'>
                     <div className='footer_contact-container'>
-                        <Link href='PrivacyPolicy'>
+                        <Link href='/PrivacyPolicy'>
                             Privacy Policy
                         </Link>
                         <Link href='ElectricalAgreementPlan'>
                             Electrical Agreement Plan
                         </Link>
                         <p><CiLocationOn className='contact_icon' /> 6/21-23 Levanswell Rd, Moorabbin VIC 3189  </p>
-                        <p><CiPhone className='contact_icon' /> 0466 382 487</p>
-                        <p><CiMail className='contact_icon' /> 258electrical@gmail.com </p>
+                        <a className='footer_phone-number' href='tel:0466382487'><CiPhone className='contact_icon' /> 0466 382 487</a>
+                        <p><CiMail className='contact_icon' /> Info@258electrical.com.au  </p>
                         <div className='footer_icon-container'>
 
                             <Link href='https://www.facebook.com/258electrical'>

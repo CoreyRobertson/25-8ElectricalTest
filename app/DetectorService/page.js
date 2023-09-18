@@ -48,6 +48,12 @@ const Page = () => {
         }
     };
 
+    const pricingCardRef = React.useRef(null);
+
+    const scrollToPricing = () => {
+        pricingCardRef.current.scrollIntoView({ behavior: 'smooth' });
+    };
+
     return (
         <section className='service_pricing-page'>
             <Head>
@@ -59,7 +65,7 @@ const Page = () => {
             <div className='pricing_top-container'>
                 <h2 className='pricing_section-header'>SMOKE ALARM SAFETY SERVICE</h2>
                 <h3>Protection and peace of mind, guaranteed.</h3>
-                <button href='#Card' className='service_button-yellow'>BOOK NOW</button>
+                <a className='book_a' href='#PriceCard'>BOOK NOW</a>
                 <p>
                     Smoke alarms play a vital role in preserving lives when they are installed, strategically positioned, and function as intended. Many Australian households lack a functioning detector, risking the safety of its occupants.
                     <br />
@@ -82,11 +88,7 @@ const Page = () => {
                             Replacement of non-functional batteries.
                         </p>
                     </div>
-                    <div className='pricing_middle-card'>
-                        <h3>FAULTY DETECTOR REPLACEMENT</h3>
-                        <p>Replacement of expired or faulty smoke detectors.
-                        </p>
-                    </div>
+
                     <div className='pricing_middle-card'>
                         <h3>DETECTOR EFFICACY CHECK</h3>
                         <p>Assessment of detector positioning, compliance appropriate positioning.
@@ -110,10 +112,10 @@ const Page = () => {
                     <button className='service_button-yellow'>READ MORE</button>
                 </Link>
             </div>
-            <div id='Card' className='pricing_card-container'>
+            <div id='PriceCard' className='pricing_card-container' ref={pricingCardRef}>
                 {prices && prices.length > 0 && ( // Check if prices array is not empty
                     <motion.div
-                        key={prices[1].id} // Use the first price's ID as the key
+                        key={prices[0].id} // Use the first price's ID as the key
                         initial='hidden'
                         whileInView='visible'
                         variants={itemVariants}
@@ -122,7 +124,7 @@ const Page = () => {
                             delay: 0.5, // No delay for the first instance
                         }}
                     >
-                        <PricingCard price={prices[1]} /> {/* Render the first instance */}
+                        <PricingCard price={prices[0]} /> {/* Render the first instance */}
                     </motion.div>
                 )}
             </div>

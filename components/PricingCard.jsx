@@ -18,12 +18,30 @@ const PricingCard = ({ price, featureLists }) => {
                         <h2>Electrical appliance inspection</h2>
                         <AiOutlineCheckCircle className='check_icon' alt='CheckIcon' />
                     </div>
+
                     <div className='feature_container'>
-                        <h2>Fault replacements</h2>
+                        <h2>Service Report & Guarantee</h2>
+                        <AiOutlineCheckCircle className='check_icon' alt='CheckIcon' />
+                    </div>
+                </div>
+            )
+        } else if (price.nickname === 'Smoke Alarm Safety Service') {
+            return (
+                <div>
+                    <div className='feature_container'>
+                        <h2>Detailed Safety Assessment</h2>
                         <AiOutlineCheckCircle className='check_icon' alt='CheckIcon' />
                     </div>
                     <div className='feature_container'>
-                        <h2>Service Report & guarantee</h2>
+                        <h2>Detector Efficacy Assurance Testing</h2>
+                        <AiOutlineCheckCircle className='check_icon' alt='CheckIcon' />
+                    </div>
+                    <div className='feature_container'>
+                        <h2>Battery Replacements</h2>
+                        <AiOutlineCheckCircle className='check_icon' alt='CheckIcon' />
+                    </div>
+                    <div className='feature_container'>
+                        <h2>Service Report & Guarantee</h2>
                         <AiOutlineCheckCircle className='check_icon' alt='CheckIcon' />
                     </div>
                 </div>

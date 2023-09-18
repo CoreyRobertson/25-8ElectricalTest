@@ -14,7 +14,7 @@ const Header = () => {
                     <p>Your trusted provider of inspired electrical solutions.</p>
                     <div className='header_button-container'>
 
-                        <button type='button' aria-label='Get a free quote'>GET A FREE QUOTE</button>
+                        <button type='button' aria-label='Get a free quote'><a href='#Cta'>FREE ONLINE QUOTE</a></button>
 
                         <Link href='Booking' style={{ textDecoration: 'none' }}>
                             <button type='button' aria-label='Book a service'>BOOK A SERVICE</button>

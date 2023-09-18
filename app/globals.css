@@ -65,7 +65,7 @@ nav {
 
 }
 
-nav p {
+.nav_phone-number {
   font-family: var(--font-quicksand);
   font-weight: 600;
   font-size: 20px;
@@ -164,6 +164,10 @@ nav p {
   cursor: pointer;
 }
 
+.overlay_phone-number {
+  color: var(--color-white);
+}
+
 
 /* Header Section */
 
@@ -242,6 +246,19 @@ nav p {
   /* Ensure the button is above the pseudo-element */
 }
 
+.header_button-container button a {
+  color: var(--color-yellow);
+  font-family: var(--font-quicksand);
+  font-weight: 300;
+  font-size: 24px;
+  text-decoration: none;
+  /* Ensure the button is above the pseudo-element */
+}
+
+.header_button-container button:hover a {
+  color: var(--color-white);
+}
+
 .header_button-container button:before {
   content: '';
   position: absolute;
@@ -275,6 +292,7 @@ nav p {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  padding-top: 3rem;
 }
 
 
@@ -412,8 +430,8 @@ nav p {
   align-items: flex-start;
   justify-content: center;
   background-color: var(--color-black);
-  gap: 1rem;
-  padding: 4rem 0;
+  gap: .2rem;
+  padding: 6rem 0 2rem 0;
 }
 
 .award_card {
@@ -839,6 +857,10 @@ nav p {
   margin-top: 1rem;
 }
 
+.profile_image-container {
+  width: 650px;
+}
+
 /* Pricing Section */
 
 .service_pricing-page {
@@ -1116,10 +1138,20 @@ nav p {
 
 .ourservices_type-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 5rem;
 
   margin: 10rem;
+}
+
+.book_a {
+  text-decoration: none;
+  color: var(--color-yellow);
+  border: solid 1px var(--color-yellow);
+  padding: .5rem 1rem;
+  border-radius: 20px;
+  font-family: var(--font-quicksand);
+  font-weight: 300;
 }
 
 /* Footer Section */
@@ -1131,6 +1163,11 @@ footer {
   align-items: center;
   z-index: 10;
   box-shadow: 0px -30px 40px rgba(255, 255, 255, 0.7);
+}
+
+.footer_brand {
+
+  width: 300px;
 }
 
 
@@ -1175,6 +1212,12 @@ footer {
   font-size: 16px;
   border-bottom: solid 1px var(--color-yellow);
   text-decoration: none;
+}
+
+.footer_phone-number {
+  border-bottom: none !important;
+
+  font-size: 20px !important;
 }
 
 .footer_right {
@@ -1473,8 +1516,9 @@ form textarea {
 
   }
 
-  nav p {
+  .nav_phone-number {
     font-size: 14px;
+    min-width: 100px;
     padding-right: 2rem;
   }
 
@@ -1505,7 +1549,7 @@ form textarea {
     height: 75vh;
     background-position: 0 0rem;
     padding-top: 10rem;
-    background-position: 0 -18rem;
+    background-position: 0 -14rem;
   }
 
   .header_container h1 {
@@ -1912,7 +1956,18 @@ form textarea {
     margin: 2rem;
   }
 
+  .footer_right p {
 
+    font-size: 14px;
+    line-height: 14px;
+
+  }
+
+  .footer_phone-number {
+    border-bottom: none !important;
+
+    font-size: 14px !important;
+  }
 
   .booking_container {
     padding-top: 0rem;
@@ -1994,7 +2049,7 @@ form textarea {
     display: none !important;
   }
 
-  nav p {
+  .nav_phone-number {
     display: none;
   }
 
@@ -2633,7 +2688,7 @@ form textarea {
     display: none !important;
   }
 
-  nav p {
+  .nav_phone-number {
     display: none;
   }
 
@@ -3200,6 +3255,7 @@ form textarea {
     font-size: 32px;
     line-height: 28px;
     width: auto;
+    margin-top: 2rem;
   }
 
   .pricing_card-content h1 {

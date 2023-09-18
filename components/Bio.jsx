@@ -24,28 +24,12 @@ const fadeIn = (direction, type, delay, duration) => ({
     },
 });
 
-const structuredData = {
-    "@context": "http://schema.org",
-    "@type": "AboutPage",
-    "name": "About 25/8 Electrical",
-    "description": "Learn about 25/8 Electrical, a trusted electrical services provider in Melbourne. Discover our commitment to safety and excellence."
-};
 
 const Bio = () => {
 
     return (
         <section className='bio_container'>
-            <Head>
-                <title>About 25/8 Electrical</title>
-                <meta
-                    name="description"
-                    content="Learn about 25/8 Electrical, a trusted electrical services provider in Melbourne. Discover our commitment to safety and excellence."
-                />
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-                />
-            </Head>
+
             <div className='bio_content-container'>
                 <div className='bio_text-container'>
                     <motion.h3 variants={fadeIn('', 'tween', 0.3, 0.3)} initial='hidden' whileInView='show' className='section_header'>ABOUT 25/8 ELECTRICAL</motion.h3>

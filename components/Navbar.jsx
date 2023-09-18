@@ -29,7 +29,7 @@ const Navbar = () => {
                     <Link className='explore_button-link' href='OurServices' passHref>
                         <li >OUR SERVICES</li>
                     </Link>
-                    <Link className='explore_button-link' href='ElectricalService' >
+                    <Link className='explore_button-link' href='/ElectricalService' >
                         <li >ELECTRICAL SAFETY SERVICE</li>
                     </Link>
                     <Link className='explore_button-link' href='DetectorService' >
@@ -50,7 +50,7 @@ const Navbar = () => {
                     <Overlay isOpen={isOpen} onClose={toggleOverlay} />
                 </div>
             </div>
-            <p><CiPhone className='overlay_phone' />0466 382 487</p>
+            <a className='nav_phone-number' href='tel:0466382487'><CiPhone className='overlay_phone' />0466 382 487</a>
         </nav >
     )
 }

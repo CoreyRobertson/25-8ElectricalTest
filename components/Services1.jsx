@@ -62,30 +62,15 @@ const Services1 = () => {
                     </div>
                     <div className='services1_card'>
                         <div className='services1_card-heading'>
-                            <h3>24/7 EMERGENCY CALLOUTS</h3>
+                            <h3>IN-PERSON INSPECTION AND QUOTE</h3>
                             <AiOutlineCheckCircle className='service_check' />
                         </div>
-                        <p>Your reliable electrical partner, providing 24/7 emergency call-out services. Our
-                            expert team of licensed electricians is ready to tackle any electrical crisis swiftly and
-                            efficiently. From power outages to faulty wiring, trust us to keep your home or
-                            business powered and safe, anytime, day or night.</p>
-                        <Link href='Booking'>
-                            <button type='button' className='service_button-black' aria-label='Book Now'>BOOK NOW</button>
+                        <p>At 25/8 Electrical, we understand that every electrical project is unique, which is why we offer personalised, in-person quotes, reports, and electrical inspections tailored to your specific needs. Our team is committed to ensuring the safety and efficiency of your electrical systems.</p>
+                        <Link href='/InspectionQuote'>
+                            <button type='button' className='service_button-yellow' aria-label='Book Now'>BOOK NOW</button>
                         </Link>
                     </div>
-                    <div className='services1_card'>
-                        <div className='services1_card-heading'>
-                            <h3>SWITCHBOARD UPGRADES</h3>
-                            <AiOutlineCheckCircle className='service_check' />
-                        </div>
-                        <p>Is your switchboard up to the challenge? Upgrade to a safer, more efficient electrical system
-                            with 25/8 Electrical. Our expert team specializes in modernizing switchboards, ensuring
-                            optimal performance and reducing the risk of electrical issues. Don't let outdated
-                            equipment hold you back. Upgrade today for a brighter, safer future.</p>
-                        <Link href='Booking'>
-                            <button type='button' className='service_button-black' aria-label='Book Now'>BOOK NOW</button>
-                        </Link>
-                    </div>
+
                 </div>
                 <Link href='/OurServices' className='explore_button-link'>
                     <button type='button' className='service_explore-button'>EXPLORE OUR FULL RANGE OF SERVICES

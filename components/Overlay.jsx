@@ -56,7 +56,7 @@ const Overlay = ({ isOpen, onClose }) => {
                         <li onClick={isOpen}>ELECTRICAL AGREEMENT PLAN</li>
                     </Link>
                     <li>
-                        <CiPhone className='overlay_phone' height={20} width={20} />0466 382 487
+                        <a className='overlay_phone-number' href='tel:0466382487'><CiPhone className='overlay_phone' height={20} width={20} />0466 382 487</a>
                     </li>
                 </ul>
             </div>

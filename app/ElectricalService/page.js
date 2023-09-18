@@ -7,7 +7,16 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import Head from 'next/head';
 
-const Page = () => {
+export const metadata = {
+    title: "25/8 Electrical",
+    description: "Melbourne's trusted partner in innovative electrical solutions.",
+
+}
+
+const ElectricalService = () => {
+
+
+
     const itemVariants = {
         hidden: { y: 50, opacity: 0 },
         visible: { y: 0, opacity: 1 },
@@ -50,17 +59,20 @@ const Page = () => {
     };
 
     return (
-        <section className='service_pricing-page'>
+
+
+
+        <section className='service_pricing-page' >
             <Head>
                 <title>Electrical Safety Service - 25/8 Electrical</title>
-                <meta name="description" content="Protection and peace of mind, guaranteed. Learn about our Electrical Safety Service and pricing. Book now!" />
+                <meta name="description" content="Protection and peace of mind, guaranteed. Learn about our Smoke Alarm Safety Service and pricing. Book now!" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
             </Head>
             <div className='pricing_top-container'>
                 <h2 className='pricing_section-header'>ELECTRICAL SAFETY SERVICE</h2>
                 <h3>Protection and peace of mind, guaranteed.</h3>
-                <button className='service_button-yellow'>BOOK NOW</button>
+                <a className='book_a' href='#PriceCard'>BOOK NOW</a>
                 <p>Regular safety inspections of electrical appliances, fixtures, and installations are crucial for safeguarding renters from potential hazards caused by electrical issues, additionally ensuring property owners and managers can fulfil their responsibilities effectively.
                     <br />
                     <br />
@@ -118,7 +130,7 @@ const Page = () => {
                     <button className='service_button-yellow'>READ MORE</button>
                 </Link>
             </div>
-            <div className='pricing_card-container'>
+            <div id='PriceCard' className='pricing_card-container'>
                 {prices && prices.length > 0 && ( // Check if prices array is not empty
                     <motion.div
                         key={prices[0].id} // Use the first price's ID as the key
@@ -135,7 +147,8 @@ const Page = () => {
                 )}
             </div>
         </section>
+
     );
 };
 
-export default Page;
+export default ElectricalService;

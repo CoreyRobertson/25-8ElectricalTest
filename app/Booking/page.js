@@ -37,14 +37,7 @@ const BookingPage = () => {
             <div className='booking_text-container'>
                 <h3>Fill out this form to book a service</h3>
                 <p>We will get back to you to confirm a date and time for your service.</p>
-                <div className='booking_button-container'>
-                    <Link href='ElectricalService'>
-                        <button className='service_button-yellow' aria-label="Book Electrical Safety Service">ELECTRICAL SAFETY SERVICE</button>
-                    </Link>
-                    <Link href='DetectorService'>
-                        <button className='service_button-yellow' aria-label="Book Smoke Alarm Safety Service">SMOKE ALARM SAFETY SERVICE</button>
-                    </Link>
-                </div>
+
             </div>
             <form action="https://formsubmit.co/258electrical@gmail.com" method="POST">
                 <label class="visually-hidden" htmlFor='name'>Your Name</label>

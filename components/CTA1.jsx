@@ -4,7 +4,7 @@ import { CiClock1, CiLocationOn, CiPhone } from 'react-icons/ci'
 
 const CTA1 = () => {
     return (
-        <section className='cta1_container-main'>
+        <section className='cta1_container-main' id='Cta'>
             <div className='cta1_container'>
                 <div className='cta1_left'>
                     <h3>TELL US ABOUT YOUR PROJECT,</h3>

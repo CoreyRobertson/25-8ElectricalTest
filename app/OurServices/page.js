@@ -3,6 +3,13 @@ import React from 'react'
 import { AiOutlineCheckCircle } from 'react-icons/ai'
 import Head from 'next/head'
 
+
+export const metadata = {
+    title: "25/8 Electrical | Services",
+    description: "Explore our comprehensive electrical services, including Electrical Safety Service, Smoke Alarm Safety Service, 24/7 Emergency Callouts, Switchboard Upgrades, and more. Book now for expert electrical solutions.",
+
+}
+
 const page = () => {
 
     // JSON-LD structured data for all services
@@ -19,7 +26,7 @@ const page = () => {
                     "@type": "Service",
                     "serviceType": "Electrical Safety Service",
                     "provider": {
-                        "@type": "Oganization",
+                        "@type": "Organization",
                         "name": "25/8 Electrical"
                     },
                     "description": "Ensure electrical safety and compliance with our Electrical Safety Service. Comprehensive inspections, specialized tests, and proactive component replacements by licensed electricians every two years.",
@@ -45,6 +52,20 @@ const page = () => {
                 "position": 3,
                 "item": {
                     "@type": "Service",
+                    "serviceType": "In-person Inspection and Quote",
+                    "provider": {
+                        "@type": "Organization",
+                        "name": "25/8 Electrical"
+                    },
+                    "description": "Experience a comprehensive in-person inspection of your property's electrical needs. Our qualified professionals will provide you with a detailed quote, ensuring you understand the work required and the associated costs. All services are performed in compliance with Australian regulations.",
+                    "areaServed": "Victoria, Australia"
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@type": "Service",
                     "serviceType": "24/7 Emergency Callouts",
                     "provider": {
                         "@type": "Organization",
@@ -56,7 +77,7 @@ const page = () => {
             },
             {
                 "@type": "ListItem",
-                "position": 4,
+                "position": 5,
                 "item": {
                     "@type": "Service",
                     "serviceType": "Switchboard Upgrades",
@@ -70,7 +91,7 @@ const page = () => {
             },
             {
                 "@type": "ListItem",
-                "position": 5,
+                "position": 6,
                 "item": {
                     "@type": "Service",
                     "serviceType": "CCTV Surveillance Systems",
@@ -84,7 +105,7 @@ const page = () => {
             },
             {
                 "@type": "ListItem",
-                "position": 6,
+                "position": 7,
                 "item": {
                     "@type": "Service",
                     "serviceType": "Power and Lighting Upgrades",
@@ -98,7 +119,7 @@ const page = () => {
             },
             {
                 "@type": "ListItem",
-                "position": 7,
+                "position": 8,
                 "item": {
                     "@type": "Service",
                     "serviceType": "Fan Installations",
@@ -112,7 +133,7 @@ const page = () => {
             },
             {
                 "@type": "ListItem",
-                "position": 8,
+                "position": 9,
                 "item": {
                     "@type": "Service",
                     "serviceType": "EV Charger Installations",
@@ -161,6 +182,16 @@ const page = () => {
                     </div>
                     <div className='services1_card'>
                         <div className='services1_card-heading'>
+                            <h3>IN-PERSON INSPECTION AND QUOTE</h3>
+                            <AiOutlineCheckCircle className='service_check' />
+                        </div>
+                        <p>At 25/8 Electrical, we understand that every electrical project is unique, which is why we offer personalised, in-person quotes, reports, and electrical inspections tailored to your specific needs. Our team is committed to ensuring the safety and efficiency of your electrical systems.</p>
+                        <Link href='/InspectionQuote'>
+                            <button type='button' className='service_button-yellow' aria-label='Book Now'>BOOK NOW</button>
+                        </Link>
+                    </div>
+                    <div className='services1_card'>
+                        <div className='services1_card-heading'>
                             <h3>24/7 EMERGENCY CALLOUTS</h3>
                             <AiOutlineCheckCircle className='service_check' />
                         </div>
@@ -194,9 +225,7 @@ const page = () => {
                             <br />
                             <br />
                             We recommend the 8mp TIOC Dahua camera system, known for its advanced features, including integrated alarms and AI technology, offering vigilant surveillance and intelligent threat detection.
-                            <br />
-                            <br />
-                            To learn more and get a detailed quote for supply and installation, contact us at 0466382487. We're here to enhance your security.</p>
+                        </p>
                         <Link href='Booking'>
                             <button type='button' className='service_button-black' aria-label='Book Now'>BOOK NOW</button>
                         </Link>

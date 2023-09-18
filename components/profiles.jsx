@@ -14,10 +14,7 @@ const Profiles = () => {
                     <h3 className='section_header'>JAMIE GEORGE</h3>
                     <h4 className='section_header2'>MANAGING DIRECTOR 25/8 ELECTRICAL</h4>
                     <p>
-                        I grew up in the south-eastern suburbs of Melbourne in a family that valued hard work,
-                        entrepreneurship, and the importance of striving for greatness. These early experiences
-                        inspired me to create 25/8 Electrical, a company focused on making a positive impact in
-                        people’s lives and ensuring a better future.
+                        I grew up in the south-eastern suburbs of Melbourne in a family that valued hard work, honesty, Integrity, never forgetting where we came from and the importance of striving for greatness. These early experiences inspired me to create 25/8 Electrical, a company focused on making a positive impact in people’s lives and ensuring a better future.
                         <br />
                         <br />
                         My journey in the electrical field began in 2016 when I started working with Paul Sartori at

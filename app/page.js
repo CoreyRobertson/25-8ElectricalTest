@@ -5,8 +5,13 @@ import Intro from '@/components/Intro'
 import Services1 from '@/components/Services1'
 
 import Testimonials from '@/components/Testimonials'
+import Head from 'next/head'
 
-import Head from 'next/head';
+export const metadata = {
+  title: "25/8 Electrical",
+  description: "Melbourne's trusted partner in innovative electrical solutions.",
+
+}
 
 export default function Home() {
 
@@ -34,14 +39,11 @@ export default function Home() {
 `;
 
 
+
   return (
     <main>
       <Head>
-        <title>25/8 Electrical - Your Trusted Electrical Solutions Provider</title>
-        <meta
-          name="description"
-          content="25/8 Electrical is your trusted provider of inspired electrical solutions. Get a free quote or book a service with us today."
-        />
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLD }} />
       </Head>
