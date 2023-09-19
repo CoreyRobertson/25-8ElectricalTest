@@ -177,7 +177,7 @@ nav {
   justify-content: center;
   align-items: center;
   height: 80vh;
-  background-image: url('/images/258_header.png');
+  background-image: url('/images/258_header.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 -25rem;
@@ -732,7 +732,7 @@ nav {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: url('/images/image 5.png');
+  background: url('/images/image 5.webp');
   background-size: cover;
   height: 50vh;
   gap: 2rem;
