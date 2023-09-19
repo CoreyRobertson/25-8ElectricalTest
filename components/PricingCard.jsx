@@ -1,8 +1,6 @@
 import React from 'react'
 import axios from 'axios'
-import Link from 'next/link'
 import { AiOutlineCheckCircle } from 'react-icons/ai'
-import Image from 'next/image'
 
 const PricingCard = ({ price, featureLists }) => {
 
