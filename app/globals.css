@@ -344,7 +344,7 @@ nav {
   font-family: var(--font-quicksand);
   font-weight: 300;
   font-size: 18px;
-  color: #676666;
+  color: #8F8F8F;
 }
 
 .service_button-yellow {
@@ -537,7 +537,7 @@ nav {
   font-family: var(--font-quicksand);
   font-weight: 300;
   font-size: 20px;
-  color: #676666;
+  color: #8F8F8F;
   max-width: 650px;
 }
 
@@ -545,7 +545,7 @@ nav {
   font-family: var(--font-quicksand);
   font-weight: 300;
   font-size: 20px;
-  color: #676666;
+  color: #8F8F8F;
   max-width: 650px;
 }
 
@@ -568,7 +568,7 @@ nav {
   font-family: var(--font-quicksand);
   font-weight: 300;
   font-size: 20px;
-  color: #676666;
+  color: #8F8F8F;
 }
 
 /* Services2 Section */
@@ -600,7 +600,7 @@ nav {
   font-family: var(--font-quicksand);
   font-weight: 300;
   font-size: 20px;
-  color: #676666;
+  color: #8F8F8F;
   max-width: 650px;
   margin-left: 6rem;
 }
@@ -712,7 +712,7 @@ nav {
 }
 
 .icon_text p:nth-child(2) {
-  color: #676666;
+  color: #8F8F8F;
   font-family: var(--font-quicksand);
   font-weight: 300;
   font-size: 20px;
@@ -812,7 +812,7 @@ nav {
   font-family: var(--font-quicksand);
   font-weight: 300;
   font-size: 20px;
-  color: #676666;
+  color: #8F8F8F;
   text-align: right;
   line-height: 20px;
   margin-top: 1rem;
@@ -853,7 +853,7 @@ nav {
   font-weight: 300;
   font-size: 20px;
   line-height: 20px;
-  color: #676666;
+  color: #8F8F8F;
   margin-top: 1rem;
 }
 
@@ -878,7 +878,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  border-bottom: solid 1px #676666;
+  border-bottom: solid 1px #8F8F8F;
   gap: 1rem;
 }
 
@@ -909,7 +909,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  border-bottom: solid 1px #676666;
+  border-bottom: solid 1px #8F8F8F;
   gap: 1rem;
 }
 
@@ -1046,7 +1046,7 @@ nav {
 }
 
 .feature_container {
-  border-bottom: solid 1px #676666;
+  border-bottom: solid 1px #8F8F8F;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1578,22 +1578,38 @@ form textarea {
     font-size: 24px;
   }
 
-  .header_button-container {
+  .header_button-container button {
+    cursor: pointer;
+    border: solid 1px var(--color-yellow);
+    position: relative;
+    background-color: transparent;
+    color: var(--color-yellow);
+    font-family: var(--font-quicksand);
+    font-weight: 300;
+    font-size: 24px;
+    width: 300px;
     display: flex;
-    flex-direction: row;
-    gap: 2rem;
-  }
-
-  .header_button-container button:nth-child(1) {
-    font-size: 20px;
-    width: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+    z-index: 1;
+    box-shadow: 0 0 50px var(--color-yellow);
     /* Ensure the button is above the pseudo-element */
   }
 
+  .header_button-container button a {
+    color: var(--color-yellow);
+    font-family: var(--font-quicksand);
+    font-weight: 300;
+    font-size: 24px;
+    text-decoration: none;
+    /* Ensure the button is above the pseudo-element */
+  }
 
-  .header_button-container button:nth-child(2) {
-    font-size: 20px;
-    width: auto;
+  .header_button-container button:hover a {
+    color: var(--color-white);
   }
 
   /* Services 1 Section */
@@ -1790,7 +1806,7 @@ form textarea {
     font-weight: 300;
     font-size: 16px;
     line-height: 18px;
-    color: #676666;
+    color: #8F8F8F;
     margin-top: 1rem;
     width: 600px;
   }
@@ -1901,7 +1917,7 @@ form textarea {
   }
 
   .feature_container {
-    border-bottom: solid 1px #676666;
+    border-bottom: solid 1px #8F8F8F;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -2261,7 +2277,7 @@ form textarea {
     font-family: var(--font-quicksand);
     font-weight: 300;
     font-size: 20px;
-    color: #676666;
+    color: #8F8F8F;
     max-width: 650px;
   }
 
@@ -2269,7 +2285,7 @@ form textarea {
     font-family: var(--font-quicksand);
     font-weight: 300;
     font-size: 16px;
-    color: #676666;
+    color: #8F8F8F;
     max-width: 650px;
   }
 
@@ -2292,7 +2308,7 @@ form textarea {
     font-family: var(--font-quicksand);
     font-weight: 300;
     font-size: 20px;
-    color: #676666;
+    color: #8F8F8F;
   }
 
   /* Cta2 Section */
@@ -2346,7 +2362,7 @@ form textarea {
   }
 
   .icon_text p:nth-child(2) {
-    color: #676666;
+    color: #8F8F8F;
     font-family: var(--font-quicksand);
     font-weight: 300;
     font-size: 16px;

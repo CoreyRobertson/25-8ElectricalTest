@@ -4,7 +4,6 @@ import React, { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { BiMenuAltRight } from 'react-icons/bi'
-import { motion } from 'framer-motion'
 import Overlay from './Overlay'
 import { CiPhone } from 'react-icons/ci'
 

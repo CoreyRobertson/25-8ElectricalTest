@@ -9,7 +9,7 @@ import Head from 'next/head'
 
 export const metadata = {
   title: "25/8 Electrical",
-  description: "Melbourne's trusted partner in innovative electrical solutions.",
+  description: "Experience comprehensive electrical services with 25/8 Electrical - Bayside's leading electricians. Innovative solutions for all your electrical needs in Melbourne.",
 
 }
 
@@ -43,7 +43,7 @@ export default function Home() {
   return (
     <main>
       <Head>
-
+        <title>25/8 Electrical, comprehensive electrical services and high quality electricians, Bayside, Victoria</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLD }} />
       </Head>

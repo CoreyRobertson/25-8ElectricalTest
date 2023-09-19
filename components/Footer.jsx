@@ -35,16 +35,16 @@ const Footer = () => {
                         <p><CiMail className='contact_icon' /> Info@258electrical.com.au  </p>
                         <div className='footer_icon-container'>
 
-                            <Link href='https://www.facebook.com/258electrical'>
+                            <Link href='https://www.facebook.com/258electrical ' aria-label="Visit our Facebook page">
                                 <CiFacebook className='footer_contact-icon' color='var(--color-black)' cursor='pointer' alt='FacebookIcon' />
                             </Link>
-                            <Link href='https://www.instagram.com/258electrical'>
+                            <Link href='https://www.instagram.com/258electrical' aria-label="Visit our Instagram page">
                                 <CiInstagram className='footer_contact-icon' color='var(--color-yellow)' cursor='pointer' alt='InstagramIcon' />
                             </Link>
-                            <Link href='https://www.linkedin.com/company/258electrical/' target='_'>
+                            <Link href='https://www.linkedin.com/company/258electrical/' target='_' aria-label="Visit our LinkedIn page">
                                 <CiLinkedin className='footer_contact-icon' color='var(--color-black)' cursor='pointer' alt='LineinIcon' />
                             </Link>
-                            <Link href='https://www.tiktok.com/@258electrical'>
+                            <Link href='https://www.tiktok.com/@258electrical' aria-label="Visit our TikTok page">
                                 <PiTiktokLogoLight className='footer_contact-icon' color='var(--color-yellow)' cursor='pointer' alt='TiktokIcon' />
                             </Link>
                         </div>
