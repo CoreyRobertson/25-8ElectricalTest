@@ -90,7 +90,7 @@ const PricingCard = ({ price, featureLists }) => {
                         {(price.unit_amount / 100).toLocaleString('en-AU', {
                             style: 'currency',
                             currency: 'AUD'
-                        })}
+                        })}<span>+GST</span>
                     </h1>
                     <ul>
                         <li>{dynamicDescription(price)}</li>

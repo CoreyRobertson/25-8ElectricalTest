@@ -941,6 +941,13 @@ nav {
 
 }
 
+.pricing_card-content h1 span {
+
+  font-size: 16px;
+
+
+}
+
 .pricing_card-content p:nth-child(2) {
   font-family: var(--font-lato);
   font-weight: 700;
@@ -1811,6 +1818,8 @@ form textarea {
   .pricing_card-content h1 {
     font-size: 64px;
   }
+
+
 
   .pricing_card-content p:nth-child(2) {
     font-family: var(--font-lato);
