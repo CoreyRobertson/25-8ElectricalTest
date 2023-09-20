@@ -2,6 +2,10 @@ import React from 'react'
 import axios from 'axios'
 import { AiOutlineCheckCircle } from 'react-icons/ai'
 
+const calculateGST = (basePrice) => {
+    return basePrice * 0.10;  // 10% GST
+};
+
 const PricingCard = ({ price, featureLists }) => {
 
     const dynamicDescription = (price) => {
@@ -49,9 +53,21 @@ const PricingCard = ({ price, featureLists }) => {
 
     const handleSubscription = async (e) => {
         e.preventDefault();
+
+        const baseAmount = price.unit_amount;
+        const gstAmount = baseAmount * 0.10;
+
         const { data } = await axios.post('/api/payment',
             {
-                priceId: price.id
+                productData: {
+                    name: price.nickname,
+                    description: "Your product description here", // adjust as needed
+                    unit_amount: baseAmount
+                },
+                gstData: {
+                    name: "GST",
+                    unit_amount: gstAmount
+                }
             },
             {
                 headers: {
@@ -59,8 +75,8 @@ const PricingCard = ({ price, featureLists }) => {
                 },
             }
         );
-        window.location.assign(data)
-    }
+        window.location.assign(data);
+    };
 
     return (
         <div className='pricing_card-block'>
