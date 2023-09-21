@@ -2,7 +2,7 @@ import React from 'react'
 
 const Form = () => {
     return (
-        <form action="https://formsubmit.co/coreystephenr@gmail.com" method="POST">
+        <form action="https://formsubmit.co/info@258electrical.com.au" method="POST">
             <div className='left_column'>
                 <input name='name' type='text' placeholder='YOUR NAME'></input>
                 <input name='phone' type='text' placeholder='YOUR PHONE NUMBER'></input>

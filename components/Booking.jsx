@@ -15,7 +15,7 @@ const BookingPage = () => {
                 <p>We will get back to you to confirm a date and time for your service.</p>
 
             </div>
-            <form action="https://formsubmit.co/258electrical@gmail.com" method="POST">
+            <form action="https://formsubmit.co/info@258electrical.com.au" method="POST">
                 <label className="visually-hidden" htmlFor='name'>Your Name</label>
                 <input name='name' type='text' placeholder='YOUR NAME' aria-label="Your Name" required />
 
