@@ -31,8 +31,8 @@ export async function POST(request) {
         ],
 
         mode: 'payment',
-        success_url: 'http://localhost:3000',
-        cancel_url: 'http://localhost:3000',
+        success_url: 'https://www.258electrical.com.au/Success',
+        cancel_url: 'https://www.258electrical.com.au/Cancellation',
         shipping_address_collection: {
             allowed_countries: ['AU']
         },
