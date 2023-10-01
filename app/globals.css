@@ -1474,7 +1474,10 @@ form textarea {
     height: 75vh;
     background-position: 0 0rem;
     padding-top: 10rem;
-    background-position: 0 -14rem;
+    background-image: url('/images/258_header.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -5rem;
   }
 
   .header_container h1 {
@@ -1771,6 +1774,7 @@ form textarea {
     align-items: center;
     height: auto;
     margin: 2rem;
+    padding-top: 2rem;
   }
 
   .pricing_card-block {
