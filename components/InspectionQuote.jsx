@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 import Head from 'next/head';
 
 
-const ElectricalService = () => {
+const InspectionQuote = () => {
 
 
 
@@ -90,4 +90,4 @@ const ElectricalService = () => {
     );
 };
 
-export default ElectricalService;
+export default InspectionQuote;

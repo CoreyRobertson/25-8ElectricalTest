@@ -660,36 +660,24 @@ const page = () => {
                 4. Additional Works
             </h4>
             <p>
-                This Schedule includes the pricing for the Additional Works, being the
-                Additional Electrical Services.
+                This Schedule includes the pricing for the Additional Works, being the Additional Electrical Services.
                 <br />
                 <br />
-                For each Property that is enrolled for Additional Works (and is not an
-                Excluded Property), we will (subject to fulfilment of your obligations under
-                the Terms) ensure that the Additional Works are done in accordance with
-                the pricing set out below:
+                For each Property that is enrolled for Additional Works (and is not an Excluded Property), we will (subject to fulfilment of your obligations under the Terms) ensure that the Additional Works are done in accordance with the pricing set out below:
                 <br />
                 <br />
-                Time, Materials (Pay as you go)
-                Call out fee during service operating hours (7am-5pm Business Days) –
-                Includes first 15 minutes labour. $100 + GST.
+                Time, Materials (Pay as you go) Call out fee during service operating hours (7am-5pm Business Days) – Includes first 15 minutes labour. $125 + GST.
                 <br />
                 <br />
-                Hourly Rate – Electrician $120 + GST per hour. (Charged in 30 minute
-                blocks, not including materials.)
-                Works conducted outside of standard hours will be charged at +50% during
-                extended hours. (After 5pm-10pm Weekdays, weekends &amp; public holidays)
+                Hourly Rate – Electrician $130 + GST per hour. (Charged in 30 minute blocks, not including materials.) Works conducted outside of standard hours will be charged at +50% during extended hours. (After 5pm-10pm Weekdays, weekends & public holidays)
                 <br />
                 <br />
                 Smoke alarms
                 <br />
                 <br />
-                All non battery replacements will be charged. When on site 240v+9v
-                backup replacement is recommended, it will be charged out at $86.80 per
-                smoke alarm replaced.
+                All non battery replacements will be charged. When on site 240v+9v backup replacement is recommended, it will be charged out at $90 + GST per smoke alarm replaced + COES.
                 <br />
-                Separate installation (ie. Callout service works, will incur a quoted
-                installation cost at an agreed date and time.)
+                Separate installation (ie. Callout service works, will incur a quoted installation cost at an agreed date and time.)
                 <br />
                 <br />
                 Please note, where a Quotation is provided, this pricing does not apply.
