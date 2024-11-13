@@ -532,7 +532,7 @@ const page = () => {
                 the Additional Electrical Services (collectively, &quot;Electrical Services&quot;).
                 <br />
                 <br />
-                The Service Fee for each Scheduled Electrical Service is $299 (plus GST).
+                The Service Fee for each Scheduled Electrical Service is $249 (plus GST).
                 <br />
                 <br />
                 Additional Electrical Services are charged in accordance with a Quotation

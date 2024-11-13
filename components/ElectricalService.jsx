@@ -91,12 +91,7 @@ const ElectricalService = () => {
                     </div>
                     <div className='pricing_middle-card'>
                         <h3>FAULTY ITEM REPLACEMENT</h3>
-                        <p>When we detect faulty or damaged safety switches, circuit breakers, or switches and power points, we proceed with prompt replacements using high-quality components that meet industry standards. This proactive approach ensures the reliability and functionality of your electrical infrastructure, reducing the risk of potential hazards and maintaining optimal performance.
-                        </p>
-                    </div>
-                    <div className='pricing_middle-card'>
-                        <h3>COMPREHENSIVE SAFETY CHECK</h3>
-                        <p>When we detect faulty or damaged safety switches, circuit breakers, or switches and power points, we proceed with prompt replacements using high-quality components that meet industry standards. This proactive approach ensures the reliability and functionality of your electrical infrastructure, reducing the risk of potential hazards and maintaining optimal performance.
+                        <p>If we identify any damaged safety switches, circuit breakers, or other essential components, we offer on-the-spot repairs whenever possible, using high-quality parts that meet industry standards. If immediate replacement isn’t feasible, we’ll provide a detailed quote for the necessary repairs. Repair services are available at an additional cost, ensuring your electrical system remains safe and reliable.
                         </p>
                     </div>
                 </div>
