@@ -125,7 +125,7 @@ const ElectricalService = () => {
                             delay: 0.5, // No delay for the first instance
                         }}
                     >
-                        <PricingCard price={prices[0]} /> {/* Render the first instance */}
+                        <PricingCard price={prices[2]} /> {/* Render the first instance */}
                     </motion.div>
                 )}
             </div>
