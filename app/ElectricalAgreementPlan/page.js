@@ -382,7 +382,7 @@ const page = () => {
             </p>
             <h4>Contact us</h4>
             <p>
-                Postal: 6/21-23 Levanswell Road Moorabbin, 3192.
+                Postal: 9/26-28 Christensen Street, Cheltenham, 3192.
                 <br />
                 <br />
                 Phone: 0466 382 487

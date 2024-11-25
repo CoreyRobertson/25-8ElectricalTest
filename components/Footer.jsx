@@ -8,7 +8,7 @@ import Map from './Map'
 
 const Footer = () => {
 
-    const address = '6/21-23 Levanswell Rd, Moorabin, Victoria'
+    const address = '9/26-28 Christensen Street, Cheltenham, Victoria'
     const currentYear = new Date().getFullYear();
     return (
         <footer>
@@ -30,7 +30,7 @@ const Footer = () => {
                         <Link href='ElectricalAgreementPlan'>
                             Electrical Agreement Plan
                         </Link>
-                        <p><CiLocationOn className='contact_icon' /> 6/21-23 Levanswell Rd, Moorabbin VIC 3189  </p>
+                        <p><CiLocationOn className='contact_icon' /> 9/26-28 Christensen Street, Cheltenham VIC 3192  </p>
                         <a className='footer_phone-number' href='tel:0466382487'><CiPhone className='contact_icon' /> 0466 382 487</a>
                         <p><CiMail className='contact_icon' /> Info@258electrical.com.au  </p>
                         <div className='footer_icon-container'>

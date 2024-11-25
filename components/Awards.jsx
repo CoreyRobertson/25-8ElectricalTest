@@ -22,7 +22,6 @@ const Awards = () => {
         { icon: FaAward, title: 'Registered Electrical Contractor REC - 34071' },
         { icon: FaAward, title: 'ACRS Accredited' },
         { icon: FaAward, title: 'Registered Electrician' },
-        { icon: FaAward, title: 'Airtasker Verified' },
         { icon: AiOutlineStar, title: '5 Star Reviewed ' }
     ];
 

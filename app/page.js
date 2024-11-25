@@ -22,10 +22,10 @@ export default function Home() {
     "name": "25/8 Electrical",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "6/21-23 Levanswell Rd",
-      "addressLocality": "Moorabbin",
+      "streetAddress": "9/26-28 Christensen Street",
+      "addressLocality": "Cheltenham",
       "addressRegion": "Victoria",
-      "postalCode": "3189"
+      "postalCode": "3192"
     },
     "telephone": "0466-382-487",
     "url": "https://www.yourwebsite.com"
